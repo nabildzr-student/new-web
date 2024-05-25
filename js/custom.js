@@ -1,0 +1,1 @@
+!function(o){"use strict";o(".navbar-collapse a").on("click",function(){o(".navbar-collapse").collapse("hide")}),o(".smoothscroll").click(function(){var t,a,c,l=o(this).attr("href"),n=o(l),r=o(".navbar").height();return t=n,a=r,c=t.offset().top,o("body,html").animate({scrollTop:c-a},300),!1})}(window.jQuery);
